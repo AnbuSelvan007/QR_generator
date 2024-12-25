@@ -1,0 +1,111 @@
+.container{ 
+    background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+    padding: 10px;
+    min-height: 300px;
+    border-radius: 20px;
+   
+   
+}
+h1{
+ color: #09203f; 
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+   
+}
+button{
+    background-color: red;
+    border-radius:10px ;
+    border: none;
+}
+input{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    background-color:white;
+    border: none;
+    border-radius:10px ;
+    color:black;
+    font-size: 20px;
+    backdrop-filter: blur(8px);
+    
+   
+}
+label{
+    font-size: 24px;
+    color: 
+    #a1c4fd;
+}
+div{
+    margin: 5px;
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.gen{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+.down{
+    background-color:green;
+    border-radius: 10px;
+    border: none;
+}
+
+@media (max-width: 480px) {
+    .container{ 
+        background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);
+        padding: 5px;
+        min-height: 100px;
+        border-radius: 20px;
+        width: 250px;
+       
+       
+    }
+    h1{
+        font-size: 20PX;
+        margin-bottom: 0%;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 3px;
+    }
+    
+    input{
+        height: 27px;
+        width: 150px;
+        text-align: center;
+        background-color: aliceblue;
+        border: none;
+        border-radius:10px ;
+        color:black;
+        font-size: 14px;
+       
+    }
+    label{
+        margin-top: 3px;
+        font-size: 20px;
+        color: 
+        #a1c4fd;
+    }
+    div{
+        margin: 3px;
+        margin-top: 10px;
+    }
+    button{
+        padding: 5px;
+        margin: 5px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+   
+}
